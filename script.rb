@@ -12,7 +12,7 @@ def plans.print_schedule
     puts "開催日     #{plan[:date]}\n"
     puts "開始時間   #{plan[:time]}\n"
     puts "イベント名 #{plan[:title]}\n"
-    puts "人数       #{plan[:date]}\n\n"
+    puts "人数       #{plan[:capacity]}\n\n"
   end
 end
 
