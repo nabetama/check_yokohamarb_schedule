@@ -6,7 +6,7 @@ require 'nokogiri'
 require 'open-uri'
 
 class YokohamaSchedule
-  def initialize(month=0)
+  def initialize(month=nil)
     @month = month if month
     @yokohama_rb_uri = 'http://bukt.org/groups/3'
     @schedule_xpath = '//div[@class="groups"]/div[@class="events"]/table/tr'
